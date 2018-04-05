@@ -1,0 +1,200 @@
+body {
+  font-family: Montserrat;
+}
+
+.container {
+  max-width: 940px;
+  margin: auto;
+}
+
+/* windows < 992px   */
+@media (max-width: 992px) {
+  .container {
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+/* windows > 575.99px   */
+@media (min-width: 575.99px) {
+  .welcome-text-wrapper {
+    margin: 8rem auto;
+    max-width: 540px;
+  }
+  .jumbotron {
+    margin-top: -7.5rem
+    padding: 6rem 1.5rem;
+  }
+  .welcome-text-wrapper h1 {
+    font-size: 3.25rem;
+  }
+  .welcome-text-wrapper .lead {
+  	font-size:   1.5rem;
+  }
+}
+
+.jumbotron {
+  background-image: url('images/background.png');
+  border-radius: 0;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  margin-top: -7.5rem;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+/* windows < 575.99px   */
+@media (max-width: 575.99px) {
+  .jumbotron {
+    /*max-width: 100%;*/
+    margin-top: -12.5rem;
+  }
+
+  .welcome-text-wrapper {
+    margin: 11rem auto 8rem;
+    max-width: 275px;
+  }
+
+  .welcome-text-wrapper h1 {
+    font-size: 1.875rem;
+  }
+
+  .welcome-text-wrapper .lead {
+    font-size: 1.125rem;
+  }
+
+  .myNav {
+    padding: 0 3rem;
+  }
+
+  .navbar-brand {
+    padding-top: 6rem;
+  }
+}
+
+/* windows < 400   */
+@media (max-width: 400px){
+  .myNav {
+    padding: 0 1rem;
+  }
+  .navbar-brand {
+    padding-top: 6rem;
+  }
+}
+
+
+.navbar-brand {
+	font-size: 1.25rem;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.nav-link {
+  color: #ffffff;
+  width: 90px;
+  font-size: .875rem;
+  text-align: center;
+}
+
+.welcome-text-wrapper {
+  text-align: center;
+  color: #ffffff;
+  /*margin: 8rem auto;*/
+  /*margin: 3rem auto;*/
+  /*max-width: 540px;*/
+}
+
+.welcome-text-wrapper h1 {
+	font-weight: bold;
+}
+
+.welcome-text-wrapper .lead {
+  font-family: Roboto;
+	font-weight: 300;
+	line-height: 1.36;
+	color: #f5f0ef;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn {
+  border-radius: 5rem;
+  padding: .375rem 1.25rem;
+}
+
+.btn .btn-outline-light {
+  border: 2px solid #ffffff;
+}
+
+.btn-danger {
+  font-weight: bold;
+  background: #ff4e50;
+}
+
+.main-section {
+  margin-top: 5rem;
+}
+
+.section-title {
+  font-family: Montserrat;
+	font-size: 1.375rem;
+	font-weight: bold;
+	color: #444444;
+  margin-bottom: 2rem;
+}
+
+.step-indicator {
+  width: 70px;
+	height: 20px;
+	border-radius: 40px;
+	background-color: #ff4e50;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 1rem;
+  border-radius: 5rem;
+  padding: 3px 10px;
+  font-family: Montserrat;
+	font-size: 10px;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.steps .card {
+  max-width: 300px;
+  height: auto;
+}
+
+.steps .card-title {
+  font-family: Montserrat;
+	font-size: 1.5rem;
+	font-weight: bold;
+	line-height: 1.25;
+	color: #ffffff;
+}
+
+.steps .card-text {
+  font-family: Roboto;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.4;
+	text-align: left;
+	color: #e3e3e3;
+}
+
+.steps .col-md-4 {
+  padding: .5rem;
+  margin: auto;
+}
