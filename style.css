@@ -1,12 +1,10 @@
 body {
   font-family: Montserrat;
 }
-
 .container {
   max-width: 940px;
   margin: auto;
 }
-
 /* windows < 992px   */
 @media (max-width: 992px) {
   .container {
@@ -14,72 +12,18 @@ body {
     margin: auto;
   }
 }
-
-/* Small devices (landscape phones, 576px and up)*/
-/* windows > 575.99px   */
-@media (min-width: 575.99px) {
-  /*.welcome-text-wrapper {
-    margin: 12rem auto;
-    max-width: 540px;
-  }*/
-  .jumbotron {
-    margin-top: -7.5rem
-    padding: 6rem 1.5rem;
-  }
-  .welcome-text-wrapper h1 {
-    font-size: 3.25rem;
-  }
-  .welcome-text-wrapper .lead {
-  	font-size:   1.5rem;
-  }
+/***************************   navigation   ***************************/
+.navbar-brand {
+	font-size: 1.25rem;
+	font-weight: bold;
+	color: #ffffff;
 }
-
-.jumbotron {
-  background-image: url('images/background.png');
-  border-radius: 0;
-  max-width: 100%;
-  height: auto;
-  background-size: cover;
-  margin-top: -7.5rem;
+.nav-link {
+  color: #ffffff;
+  width: 90px;
+  font-size: .875rem;
+  text-align: center;
 }
-
-/*Medium devices (tablets, 576px and up)*/
-@media (min-width: 576px) {
-  .welcome-text-wrapper {
-    margin: 12rem auto;
-    max-width: 540px;
-  }
-}
-
-/* windows < 575.99px   */
-@media (max-width: 575.99px) {
-  .jumbotron {
-    /*max-width: 100%;*/
-    margin-top: -14.5rem;
-  }
-
-  .welcome-text-wrapper {
-    margin: 13rem auto 7.5em;
-    max-width: 275px;
-  }
-
-  .welcome-text-wrapper h1 {
-    font-size: 1.875rem;
-  }
-
-  .welcome-text-wrapper .lead {
-    font-size: 1.125rem;
-  }
-
-  .myNav {
-    padding: 0 3rem;
-  }
-
-  .navbar-brand {
-    padding-top: 6rem;
-  }
-}
-
 /* windows < 400   */
 @media (max-width: 400px){
   .myNav {
@@ -89,33 +33,32 @@ body {
     padding-top: 5.5rem;
   }
 }
-
-
-.navbar-brand {
-	font-size: 1.25rem;
-	font-weight: bold;
-	color: #ffffff;
+/* windows < 575.99px   */
+@media (max-width: 575.99px) {
+  .myNav {
+    padding: 0 3rem;
+  }
+  .navbar-brand {
+    padding-top: 6rem;
+  }
 }
 
-.nav-link {
-  color: #ffffff;
-  width: 90px;
-  font-size: .875rem;
-  text-align: center;
+/***************************   Welcome banner   ***************************/
+.jumbotron {
+  background-image: url('images/background.png');
+  border-radius: 0;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  margin-top: -7.5rem;
 }
-
 .welcome-text-wrapper {
   text-align: center;
   color: #ffffff;
-  /*margin: 8rem auto;*/
-  /*margin: 3rem auto;*/
-  /*max-width: 540px;*/
 }
-
 .welcome-text-wrapper h1 {
 	font-weight: bold;
 }
-
 .welcome-text-wrapper .lead {
   font-family: Roboto;
 	font-weight: 300;
@@ -123,37 +66,61 @@ body {
 	color: #f5f0ef;
 }
 
+/* windows > 575.99px   */
+@media (min-width: 575.99px) {
+  .jumbotron {
+    padding: 6rem 1.5rem;
+  }
+  .welcome-text-wrapper {
+    margin: 12rem auto;
+    max-width: 540px;
+  }
+  .welcome-text-wrapper h1 {
+    font-size: 3.25rem;
+  }
+  .welcome-text-wrapper .lead {
+  	font-size:   1.5rem;
+  }
+}
+/* windows < 575.99px   */
+@media (max-width: 575.99px) {
+  .jumbotron {
+    margin-top: -14.5rem;
+  }
+  .welcome-text-wrapper {
+    margin: 13rem auto 7.5em;
+    max-width: 275px;
+  }
+  .welcome-text-wrapper h1 {
+    font-size: 1.875rem;
+  }
+  .welcome-text-wrapper .lead {
+    font-size: 1.125rem;
+  }
+}
+/***************************   buttons   ***************************/
 .btn {
   border-radius: 5rem;
   padding: .375rem 1.25rem;
 }
-
 .btn .btn-outline-light {
   border: 2px solid #ffffff;
 }
-
 .btn-danger {
   font-weight: bold;
   background: #ff4e50;
 }
 
-
-
-
-
-
+/***************************   content   ***************************/
 .main-section {
-  margin-top: 5rem;
+  margin-top: 6.25rem;
 }
-
 .section-title {
-  font-family: Montserrat;
 	font-size: 1.375rem;
 	font-weight: bold;
 	color: #444444;
   margin-bottom: 2rem;
 }
-
 .step-indicator {
   width: 70px;
 	height: 20px;
@@ -170,12 +137,6 @@ body {
 	text-align: center;
 	color: #ffffff;
 }
-
-.steps .card {
-  max-width: 300px;
-  height: auto;
-}
-
 .steps .card-title {
   font-family: Montserrat;
 	font-size: 1.5rem;
@@ -183,7 +144,6 @@ body {
 	line-height: 1.25;
 	color: #ffffff;
 }
-
 .steps .card-text {
   font-family: Roboto;
 	font-size: 14px;
@@ -192,8 +152,24 @@ body {
 	text-align: left;
 	color: #e3e3e3;
 }
-
 .steps .col-md-4 {
-  padding: .5rem;
   margin: auto;
+}
+.steps .card {
+  max-width: 300px;
+  /*height: auto;*/
+  margin: auto;
+}
+/* windows > 576px   */
+@media (min-width: 576px) {
+}
+/* windows < 575.99px   */
+@media (max-width: 575.99px) {
+  .steps .card {
+    /*max-width: 100%;*/
+    height: 240px;
+  }
+  .steps .card-img {
+    height: inherit;
+  }
 }
