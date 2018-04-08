@@ -207,7 +207,6 @@ body {
 .user-wrapper {
   max-width: 240px;
 }
-
 /* windows < 575.99px   */
 @media (max-width: 575.99px) {
   .features .card {
@@ -219,18 +218,48 @@ body {
   	height: inherit;
   }
 }
-
-/* windows > 576px   */
-@media (min-width: 576px) {
-
+.action p {
+  font-family: Roboto;
+	font-size: 1.125rem;
+	font-weight: 300;
+	line-height: 0.78;
+	text-align: center;
+	color: #666666;
 }
-/* windows < 575.99px   */
-@media (max-width: 575.99px) {
-  .steps .card {
-    /*max-width: 100%;*/
-    height: 240px;
-  }
-  .steps .card-img {
-    height: inherit;
-  }
+.form-control {
+  width: 300px;
+  display: inline-block;
+}
+.search {
+  margin-bottom: 5rem;
+}
+hr {
+  width: 100%;
+	height: 2px;
+	background-color: #ff4e50;
+}
+
+.logo {
+  font-family: Montserrat;
+	font-size: 16px;
+	color: #ff4e50;
+}
+
+.footer-link {
+  font-family: Roboto;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.86;
+	color: #999999;
+  text-decoration: none;
+}
+
+.footer-item,
+.footer-links {
+  list-style: none;
+}
+
+.card-img-overlay {
+	top: auto;
+	bottom: 0;
 }
