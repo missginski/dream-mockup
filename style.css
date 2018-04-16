@@ -69,7 +69,8 @@ body {
 /* windows > 575.99px   */
 @media (min-width: 575.99px) {
   .jumbotron {
-    padding: 6rem 1.5rem;
+    /*padding: 6rem 1.5rem;*/
+    padding: 2rem 0;
   }
   .welcome-text-wrapper {
     margin: 12rem auto;
