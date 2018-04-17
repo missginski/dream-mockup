@@ -12,7 +12,7 @@ body {
     margin: auto;
   }
 }
-/***************************   navigation   ***************************/
+/*********   navigation   *********/
 .navbar-brand {
 	font-size: 1.25rem;
 	font-weight: bold;
@@ -43,7 +43,7 @@ body {
   }
 }
 
-/***************************   Welcome banner   ***************************/
+/*********   welcome banner   *********/
 .jumbotron {
   background-image: url('images/background.png');
   border-radius: 0;
@@ -99,7 +99,7 @@ body {
     font-size: 1.125rem;
   }
 }
-/***************************   buttons   ***************************/
+/*********   buttons   *********/
 .btn {
   border-radius: 5rem;
   /*padding: .375rem 1.25rem;*/
@@ -114,7 +114,7 @@ body {
   padding: .375rem 1.25rem;
 }
 
-/***************************   content   ***************************/
+/*********   content   *********/
 .main-section {
   margin-top: 6.25rem;
 }
@@ -177,7 +177,7 @@ body {
     height: inherit;
   }
 }
-/***************************   content   ***************************/
+/*********   content   *********/
 .user {
   font-family: Montserrat;
   font-size: .875rem;
@@ -203,7 +203,7 @@ body {
   font-weight: bold;
   /*display: block;*/
 }
-/***************************   content   ***************************/
+/*********   content   *********/
 
 .user-wrapper {
   max-width: 240px;
