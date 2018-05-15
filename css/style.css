@@ -45,7 +45,7 @@ body {
 
 /*********   welcome banner   *********/
 .jumbotron {
-  background-image: url('images/background.png');
+  background-image: url('../images/background.png');
   border-radius: 0;
   max-width: 100%;
   height: auto;
